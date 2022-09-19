@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './index.scss';
+import 'src/index.scss';
 
 class myFlixApplication extends React.Component
 {
