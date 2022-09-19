@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import 'src/index.scss';
+import './index.scss';
 
 class myFlixApplication extends React.Component
 {
@@ -14,6 +14,6 @@ class myFlixApplication extends React.Component
     }
 }
 
-const container = document.getElementsByClassName('app-container') [0];
+const container = document.getElementsByClassName("app-container") [0];
 
 ReactDOM.render(React.createElement(MyFlixApplication), container);
