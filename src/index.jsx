@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './index.scss';
 
-class myFlixApplication extends React.Component
+class MyFlixApplication extends React.Component
 {
     render() {
         return (
